@@ -13,8 +13,8 @@ import { MenuIcon } from "lucide-react";
 const Header = () => {
   return (
     <>
-      <Card className="lg:hidden">
-        <CardContent className="flex items-center justify-between pb-0 p-5">
+      <Card className="lg:hidden rounded-full">
+        <CardContent className="flex items-center justify-between pb-0 p-5 mx-4">
           <Link href="/" className="font-bold text-lg">
             Ariel
           </Link>
@@ -27,13 +27,10 @@ const Header = () => {
             </SheetTrigger>
 
             <SheetContent>
-              <SheetHeader>
-                <SheetTitle>Menu</SheetTitle>
-              </SheetHeader>
-              <div className="flex flex-col pt-5 gap-4">
+              <div className="flex flex-col pl-6 pt-5 gap-4">
                 <Link href="/">Home</Link>
-                <Link href="/">Sobre</Link>
                 <Link href="/">Projetos</Link>
+                <Link href="/">Contato</Link>
               </div>
             </SheetContent>
           </Sheet>
@@ -41,16 +38,16 @@ const Header = () => {
       </Card>
 
       <div className="max-lg:hidden">
-        <Card className="w-full ">
-          <CardContent className="flex items-center justify-center gap-x-20 pb-0 p-5">
-            <Link href="/" className="font-bold text-lg">
+        <Card className="w-full rounded-full">
+          <CardContent className="flex items-center justify-center gap-x-20 pb-0 p-4">
+            <Link href="/" className="text-lg">
               Home
             </Link>
-            <Link href="/" className="font-bold text-lg">
-              Sobre
-            </Link>
-            <Link href="/" className="font-bold text-lg">
+            <Link href="/" className="text-lg">
               Projetos
+            </Link>
+            <Link href="/" className="text-lg">
+              Contato
             </Link>
           </CardContent>
         </Card>
