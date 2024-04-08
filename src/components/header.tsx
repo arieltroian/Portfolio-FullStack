@@ -28,9 +28,24 @@ const Header = () => {
 
             <SheetContent>
               <div className="flex flex-col pl-6 pt-5 gap-4">
-                <Link href="/">Home</Link>
-                <Link href="/">Projetos</Link>
-                <Link href="/">Contato</Link>
+                <Link
+                  href="/"
+                  className="transition ease-out duration-300 hover:text-primary hover:-translate-y-1 hover:scale-110"
+                >
+                  Home
+                </Link>
+                <Link
+                  href="#projetos"
+                  className="transition ease-out duration-300 hover:text-primary hover:-translate-y-1 hover:scale-110"
+                >
+                  Projetos
+                </Link>
+                <Link
+                  href="#contatos"
+                  className="transition ease-out duration-300 hover:text-primary hover:-translate-y-1 hover:scale-110"
+                >
+                  Contato
+                </Link>
               </div>
             </SheetContent>
           </Sheet>
@@ -40,13 +55,22 @@ const Header = () => {
       <div className="max-lg:hidden">
         <Card className="w-full rounded-full">
           <CardContent className="flex items-center justify-center gap-x-20 pb-0 p-4">
-            <Link href="/" className="text-lg">
+            <Link
+              href="/"
+              className="text-lg transition ease-out duration-300 hover:text-primary hover:-translate-y-1 hover:scale-110"
+            >
               Home
             </Link>
-            <Link href="/" className="text-lg">
+            <Link
+              href="#projetos"
+              className="text-lg transition ease-out duration-300 hover:text-primary hover:-translate-y-1 hover:scale-110"
+            >
               Projetos
             </Link>
-            <Link href="/" className="text-lg">
+            <Link
+              href="#contato"
+              className="text-lg transition ease-out duration-300 hover:text-primary hover:-translate-y-1 hover:scale-110"
+            >
               Contato
             </Link>
           </CardContent>
