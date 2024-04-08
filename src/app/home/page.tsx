@@ -8,6 +8,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import ExternalLink from "@/components/externalLink";
 
 const HomePage = () => {
   return (
@@ -35,10 +36,14 @@ const HomePage = () => {
               </p>
               <div className="flex pt-3 gap-3 items-center justify-center">
                 <Button variant="ghost" size="icon">
-                  <Linkedin />
+                  <ExternalLink href="https://linkedin.com/in/arieltroian">
+                    <Linkedin />
+                  </ExternalLink>
                 </Button>
                 <Button variant="ghost" size="icon">
-                  <LinkIcon />
+                  <ExternalLink href="https://github.com/arieltroian">
+                    <LinkIcon />
+                  </ExternalLink>
                 </Button>
               </div>
             </div>
