@@ -1,7 +1,8 @@
-interface Projects {
+export interface Projects {
   id: number;
+  projectNumber: string;
   title: string;
-  subtile: string;
+  subtitle: string;
   description: string;
   technologyTags: string[];
   projectPreviewLink: string;
@@ -13,8 +14,9 @@ interface Projects {
 const ProjectsList: Projects[] = [
   {
     id: 1,
+    projectNumber: "01.",
     title: "Projeto 1",
-    subtile: "Lorem ipsum dolor sit amet. Est voluptatem ipsam",
+    subtitle: "Lorem ipsum dolor sit amet. Est voluptatem ipsam",
     description: "",
     technologyTags: [""],
     projectPreviewLink: "",
@@ -24,8 +26,9 @@ const ProjectsList: Projects[] = [
   },
   {
     id: 2,
+    projectNumber: "02.",
     title: "Projeto 2",
-    subtile: "Lorem ipsum dolor sit amet. Est voluptatem ipsam",
+    subtitle: "Lorem ipsum dolor sit amet. Est voluptatem ipsam",
     description: "",
     technologyTags: [""],
     projectPreviewLink: "",
@@ -35,8 +38,9 @@ const ProjectsList: Projects[] = [
   },
   {
     id: 3,
+    projectNumber: "03.",
     title: "Projeto 3",
-    subtile: "Lorem ipsum dolor sit amet. Est voluptatem ipsam",
+    subtitle: "Lorem ipsum dolor sit amet. Est voluptatem ipsam",
     description: "",
     technologyTags: [""],
     projectPreviewLink: "",
