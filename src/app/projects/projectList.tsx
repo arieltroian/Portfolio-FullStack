@@ -29,7 +29,7 @@ const ProjectsList: Projects[] = [
       "Prisma",
       "Supabase",
     ],
-    projectPreviewLink: "https://caotinho-pet-care.vercel.app/",
+    projectPreviewLink: "https://caotinho-petcare.vercel.app/",
     githubRepositoryLink: "https://github.com/arieltroian/CaotinhoPetCare",
     previewImageUrl:
       "https://i.ibb.co/Ws8gnNM/preview-image-caotinho-petcare.png",
