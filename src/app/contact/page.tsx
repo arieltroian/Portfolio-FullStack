@@ -1,0 +1,36 @@
+import ExternalLink from "@/components/externalLink";
+import { Button } from "@/components/ui/button";
+import { LinkIcon, Linkedin, MailIcon } from "lucide-react";
+
+const ContactPage = () => {
+  return (
+    <section
+      id="contato"
+      className="flex flex-col items-center justify-center h-screen mb-[-4.4rem]"
+    >
+      <h1 className="text-2xl font-bold mb-8">Conecte-se comigo!</h1>
+      <div className=" flex flex-col items-center justify-center">
+        <h2 className="text-xl mb-3">Você pode me encontrar por aqui:</h2>
+        <div className="flex gap-4">
+          <Button variant="ghost" size="icon">
+            <ExternalLink href="https://linkedin.com/in/arieltroian">
+              <Linkedin />
+            </ExternalLink>
+          </Button>
+          <Button variant="ghost" size="icon">
+            <ExternalLink href="https://github.com/arieltroian">
+              <LinkIcon />
+            </ExternalLink>
+          </Button>
+          <Button variant="ghost" size="icon">
+            <ExternalLink href="mailto:arieltroian@outlook.com">
+              <MailIcon />
+            </ExternalLink>
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ContactPage;
