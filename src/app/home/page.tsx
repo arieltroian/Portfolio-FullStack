@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { LinkIcon, Linkedin } from "lucide-react";
+import { LinkIcon, Linkedin, MailIcon } from "lucide-react";
 import Image from "next/image";
 import {
   Accordion,
@@ -31,11 +31,11 @@ const HomePage = () => {
                 Desenvolvedor Full Stack
               </h2>
               <p className="mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                vitae vel corrupti quia autem. Aliquid maxime repudiandae sit!
-                Reprehenderit asperiores ius
+                Entusiasta e apaixonado por tecnologia e desenvolvimento de
+                software, compartilho aqui alguns dos meus estudos e projetos
+                pessoais.
               </p>
-              <div className="flex pt-3 gap-3 items-center justify-center">
+              <div className="flex pt-3 gap-4 items-center justify-center">
                 <Button variant="ghost" size="icon">
                   <ExternalLink href="https://linkedin.com/in/arieltroian">
                     <Linkedin />
