@@ -43,7 +43,8 @@ const ProjectsList: Projects[] = [
     description:
       "Back-end API CRUD (Create, Read, Update, Delete) para realizar operações em uma agenda de contatos.",
     technologyTags: ["TypeScript", "Node", "Prisma", "Fastify"],
-    projectPreviewLink: "",
+    projectPreviewLink:
+      "https://github.com/arieltroian/Agenda-de-Contatos-CRUD-API",
     githubRepositoryLink:
       "https://github.com/arieltroian/Agenda-de-Contatos-CRUD-API",
     previewImageUrl: "https://i.ibb.co/3B19KmJ/preview-image-contacts-api.png",
