@@ -14,7 +14,7 @@ import { Badge } from "@/components/ui/badge";
 
 const HomePage = () => {
   return (
-    <section className="flex items-center justify-center mt-[-2rem]">
+    <section className="flex items-center justify-center ">
       <div className="flex flex-wrap lg:flex-nowrap gap-8 overflow-hidden w-full">
         <div className="my-1 w-full sm:px-1 lg:w-4/12">
           <div className="px-6 flex flex-col items-center justify-center mt-3">
