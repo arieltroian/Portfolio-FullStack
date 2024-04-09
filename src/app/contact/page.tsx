@@ -1,6 +1,8 @@
 import ExternalLink from "@/components/externalLink";
 import { Button } from "@/components/ui/button";
-import { LinkIcon, Linkedin, MailIcon } from "lucide-react";
+import { IoMdMail } from "react-icons/io";
+import { FaLinkedinIn } from "react-icons/fa";
+import { IoLogoGithub } from "react-icons/io5";
 
 const ContactPage = () => {
   return (
@@ -14,17 +16,17 @@ const ContactPage = () => {
         <div className="flex gap-4">
           <Button variant="ghost" size="icon">
             <ExternalLink href="https://linkedin.com/in/arieltroian">
-              <Linkedin />
+              <FaLinkedinIn size={30} />
             </ExternalLink>
           </Button>
           <Button variant="ghost" size="icon">
             <ExternalLink href="https://github.com/arieltroian">
-              <LinkIcon />
+              <IoLogoGithub size={30} />
             </ExternalLink>
           </Button>
           <Button variant="ghost" size="icon">
             <ExternalLink href="mailto:arieltroian@outlook.com">
-              <MailIcon />
+              <IoMdMail size={30} />
             </ExternalLink>
           </Button>
         </div>

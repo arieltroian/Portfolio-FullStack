@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { LinkIcon, Linkedin, MailIcon } from "lucide-react";
+import { FaLinkedinIn } from "react-icons/fa";
+import { IoLogoGithub } from "react-icons/io5";
 import Image from "next/image";
 import {
   Accordion,
@@ -38,12 +39,12 @@ const HomePage = () => {
               <div className="flex pt-3 gap-4 items-center justify-center">
                 <Button variant="ghost" size="icon">
                   <ExternalLink href="https://linkedin.com/in/arieltroian">
-                    <Linkedin />
+                    <FaLinkedinIn size={30} />
                   </ExternalLink>
                 </Button>
                 <Button variant="ghost" size="icon">
                   <ExternalLink href="https://github.com/arieltroian">
-                    <LinkIcon />
+                    <IoLogoGithub size={30} />
                   </ExternalLink>
                 </Button>
               </div>
