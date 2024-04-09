@@ -27,7 +27,7 @@ const HomePage = () => {
             />
             <div className="flex flex-col items-center justify-center mt-3">
               <h1 className="text-xl font-semibold">Ariel Troian</h1>
-              <h2 className="text-lg text-slate-400">
+              <h2 className="text-lg text-neutral-300">
                 Desenvolvedor Full Stack
               </h2>
               <p className="mt-3">
@@ -51,8 +51,8 @@ const HomePage = () => {
           </div>
         </div>
 
-        <Card className="p-2 w-full sm:px-1 lg:w-8/12">
-          <CardContent className="flex flex-col items-center justify-center">
+        <Card className="p-1 w-full  lg:w-8/12">
+          <CardContent className="flex flex-col ">
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
                 <AccordionTrigger>Linguagens</AccordionTrigger>
@@ -84,7 +84,7 @@ const HomePage = () => {
 
               <AccordionItem value="item-4">
                 <AccordionTrigger>Banco de dados</AccordionTrigger>
-                <AccordionContent className="flex flex-wrap gap-2">
+                <AccordionContent className="flex flex-wrap gap-2 ">
                   <Badge>MongoDB</Badge>
                   <Badge>Supabase</Badge>
                   <Badge>Prisma</Badge>
