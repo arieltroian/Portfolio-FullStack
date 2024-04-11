@@ -59,7 +59,7 @@ const HomePage = () => {
                 <AccordionTrigger>Linguagens</AccordionTrigger>
                 <AccordionContent className="flex flex-wrap gap-2">
                   <Badge>JavaScript</Badge>
-                  <Badge>TypeSecript</Badge>
+                  <Badge>TypeScript</Badge>
                   <Badge>Python</Badge>
                 </AccordionContent>
               </AccordionItem>
