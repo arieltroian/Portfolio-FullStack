@@ -20,7 +20,7 @@ const HomePage = () => {
           <div className="px-6 flex flex-col items-center justify-center mt-3">
             <Image
               src="/profile-image.png"
-              alt=""
+              alt="Ilustração de Ariel"
               height={0}
               width={0}
               sizes="100vw"
