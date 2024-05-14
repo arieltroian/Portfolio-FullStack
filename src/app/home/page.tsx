@@ -60,7 +60,7 @@ const HomePage = () => {
                 <AccordionContent className="flex flex-wrap gap-2">
                   <Badge>JavaScript</Badge>
                   <Badge>TypeScript</Badge>
-                  <Badge>Python</Badge>
+                  <Badge>Java</Badge>
                 </AccordionContent>
               </AccordionItem>
 
@@ -80,6 +80,7 @@ const HomePage = () => {
                 <AccordionContent className="flex flex-wrap gap-2">
                   <Badge>Node</Badge>
                   <Badge>Fastify</Badge>
+                  <Badge>Java</Badge>
                 </AccordionContent>
               </AccordionItem>
 
