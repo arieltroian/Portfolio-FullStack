@@ -8,7 +8,6 @@ export interface Projects {
   projectPreviewLink: string;
   githubRepositoryLink: string;
   previewImageUrl: string;
-  responsiveImageUrl: string;
 }
 
 const ProjectsList: Projects[] = [
@@ -33,7 +32,6 @@ const ProjectsList: Projects[] = [
     githubRepositoryLink: "https://github.com/arieltroian/CaotinhoPetCare",
     previewImageUrl:
       "https://i.ibb.co/Ws8gnNM/preview-image-caotinho-petcare.png",
-    responsiveImageUrl: "",
   },
   {
     id: 2,
@@ -48,7 +46,6 @@ const ProjectsList: Projects[] = [
     githubRepositoryLink:
       "https://github.com/arieltroian/Agenda-de-Contatos-CRUD-API",
     previewImageUrl: "https://i.ibb.co/3B19KmJ/preview-image-contacts-api.png",
-    responsiveImageUrl: "",
   },
   {
     id: 3,
@@ -62,7 +59,6 @@ const ProjectsList: Projects[] = [
     githubRepositoryLink:
       "https://github.com/arieltroian/Projeto-Calculadora?tab=readme-ov-file",
     previewImageUrl: "https://i.ibb.co/0mfm5C7/preview-image-calculdora.png",
-    responsiveImageUrl: "",
   },
   {
     id: 4,
@@ -77,7 +73,6 @@ const ProjectsList: Projects[] = [
       "https://github.com/arieltroian/Relogio-Digital?tab=readme-ov-file",
     previewImageUrl:
       "https://i.ibb.co/jVJbdV4/preview-image-relogio-digital.png",
-    responsiveImageUrl: "",
   },
 ];
 
