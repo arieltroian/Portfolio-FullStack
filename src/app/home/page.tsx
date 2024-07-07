@@ -20,7 +20,7 @@ const HomePage = () => {
           <div className="px-6 flex flex-col items-center justify-center mt-3">
             <Image
               src="/profile-image.png"
-              alt="Ilustração de foto de perfil do Ariel"
+              alt="Arte digital do Ariel"
               height={0}
               width={0}
               sizes="100vw"
@@ -69,6 +69,8 @@ const HomePage = () => {
                 <AccordionContent className="flex flex-wrap gap-2">
                   <Badge>HTML</Badge>
                   <Badge>CSS</Badge>
+                  <Badge>JavaScript</Badge>
+                  <Badge>TypeScript</Badge>
                   <Badge>React</Badge>
                   <Badge>Next.js</Badge>
                   <Badge>Tailwind CSS</Badge>
@@ -78,17 +80,19 @@ const HomePage = () => {
               <AccordionItem value="item-3">
                 <AccordionTrigger>Back-End</AccordionTrigger>
                 <AccordionContent className="flex flex-wrap gap-2">
+                  <Badge>Java</Badge>
+                  <Badge>Spring</Badge>
                   <Badge>Node</Badge>
                   <Badge>Fastify</Badge>
-                  <Badge>Java</Badge>
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-4">
                 <AccordionTrigger>Banco de dados</AccordionTrigger>
                 <AccordionContent className="flex flex-wrap gap-2 ">
+                  <Badge>SQL</Badge>
+                  <Badge>PostgreSQL</Badge>
                   <Badge>MongoDB</Badge>
-                  <Badge>Supabase</Badge>
                   <Badge>Prisma</Badge>
                 </AccordionContent>
               </AccordionItem>
